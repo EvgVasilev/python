@@ -1,7 +1,7 @@
 first_result = int(input('Укажите дистанцию пройденную в первый день: '))
 required_result = int(input(('Укажите желаемую дистанцию: ')))
 print(f'Вы начинаете с {first_result}км.')
-days = 0
+days = 1
 while first_result <= required_result:
     progress = first_result + 0.1 * first_result
     print(f'Прогресс {round(progress, 2)} км.')
