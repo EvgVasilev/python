@@ -5,6 +5,8 @@ if profit > cost:
     print(f"Рентабельность равна: {round((profit / cost * 100), 2)}%")
     personal_count = int(input('Укажите количество сотрудников: '))
     personal_profit = (profit - cost) / personal_count
-    print(f'Доход на на одного сотрудника равен: {round(personal_profit,2)}.')
+    print(f'Доход на на одного сотрудника равен: {round(personal_profit, 2)}.')
+elif profit == cost:
+    print(f'В прошедшем квартале отработали в "ноль"')
 else:
     print(f'В прошедшем квартале вы работали в убыток.')
